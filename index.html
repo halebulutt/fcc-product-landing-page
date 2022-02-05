@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCC-Product Landing Page</title>
+</head>
+<body>
+    <link rel="stylesheet" href="main.css">
+    <link
+  rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+  integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+  crossorigin="anonymous"
+/>
+<div id="page-wrapper">
+  <header id="header">
+    <div class="logo">
+      <img
+        id="header-img"
+        src="https://gibir.net.tr/img/header/gibirnet-horizontal-logo.png"
+        alt="reliable fast internet logo"
+      />
+    </div>
+
+    <nav id="nav-bar">
+      <ul>
+        <li><a class="nav-link" href="#features">Home Page</a></li>
+        <li><a class="nav-link" href="#how-it-works">About Us</a></li>
+        <li><a class="nav-link" href="#pricing">Pricing</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container"></div>
+
+  <section id="hero">
+    <h2>Turkey's service provider</h2>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <input
+        name="email"
+        id="email"
+        type="email"
+        placeholder="Enter your email address"
+        required
+      />
+      <input id="submit" type="submit" value="Get Started" class="btn" />
+    </form>
+  </section>
+
+  <div class="container">
+    <section id="features">
+      <div class="grid">
+        <div class="icon"><i class="fa fa-3x fa-fire"></i></div>
+        <div class="desc">
+          <h2>Premium Options</h2>
+          <p>
+            Internet with faster and better service.
+          </p>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
+        <div class="desc">
+          <h2>Home Service</h2>
+          <p>
+            When you encounter the slightest problem, we come to your home and serve you.
+          </p>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="icon">
+          <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
+        </div>
+        <div class="desc">
+          <h2>Online Service</h2>
+          <p>
+            24/7 online service.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="how-it-works">
+      <iframe id="video"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/pR-Xxjbappo"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+    </section>
+    <section id="pricing">
+      <div class="product" id="mega">
+        <div class="level">
+G-NET MEGA</div>
+        <h2>80₺</h2>
+        <ol>
+          <li>Up to 35 Mbps download.</li>
+          <li>Up to 6 Mbps upload.</li>
+          <li>Unlimited.</li>
+          <li>Unregistered.</li>
+        </ol>
+        <button class="btn">Select</button>
+      </div>
+      <div class="product" id="fiber">
+        <div class="level">G-NET FİBER</div>
+        <h2>90₺</h2>
+        <ol>
+          <li>Up to 100 Mbps download.</li>
+          <li>Up to 8 Mbps upload.</li>
+          <li>Unlimited.</li>
+          <li>Unregistered.</li>
+        </ol>
+        <button class="btn">Select</button>
+      </div>
+      <div class="product" id="trades">
+        <div class="level">G-NET TRADES</div>
+        <h2>80₺</h2>
+        <ol>
+          <li>Up to 100 Mbps download.</li>
+          <li>Up to 8 Mbps upload.</li>
+          <li>Unlimited.</li>
+          <li>Unregistered.</li>
+        </ol>
+        <button class="btn">Select</button>
+      </div>
+    </section>
+    <footer>
+      <ul>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <span>Copyright 2022, Original Gibirnet</span>
+    </footer>
+  </div>
+</div>
+
+</body>
+</html>
